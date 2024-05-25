@@ -1,0 +1,13 @@
+@keyframes loadPage {
+    from {
+        opacity: 80%;
+        transform: scale(.98);
+    }
+    to {
+        opacity: 100%;
+        transform: scale(1);
+    }
+}
+section {
+    animation: loadPage 500ms ease-out;
+}
